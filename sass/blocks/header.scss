@@ -1,0 +1,22 @@
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header__svg-logo {
+  width: 170px;
+  height: 37px;
+
+  &::before {
+    content: "";
+    width: 53px;
+    height: 43px;
+    background: url("../img/stack.svg#camera-l") 50% 50% no-repeat;
+  }
+
+  &::after {
+    content: "";
+    width: 53px;
+    height: 43px;
+    background: url("../img/stack.svg#camera-r") 50% 50% no-repeat;
+  }
+}
