@@ -1,0 +1,22 @@
+{
+  "name": "video-compilation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ostin63/video-compilation.git"
+  },
+  "author": "HomeStudioDmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ostin63/video-compilation/issues"
+  },
+  "homepage": "https://github.com/Ostin63/video-compilation#readme"
+}
